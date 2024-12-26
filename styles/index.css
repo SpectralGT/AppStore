@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+:root {
+  --text-color: #0e0e0e;
+}
+
+@property --x1 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --y1 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --x2 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --y2 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --x3 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --y3 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --x4 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --y4 {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  background-image: radial-gradient(
+      at 50% 50%,
+      hsl(0, 0%, 100%) 0px,
+      transparent 50%
+    ),
+    radial-gradient(
+      at var(--x1) var(--y1),
+      rgba(255, 163, 163, 0.468) 0px,
+      transparent 50%
+    ),
+    radial-gradient(
+      at var(--x2) var(--y2),
+      rgb(255, 202, 225) 0px,
+      transparent 50%
+    ),
+    radial-gradient(
+      at var(--x3) var(--y3),
+      rgb(168, 238, 232) 0px,
+      transparent 50%
+    ),
+    radial-gradient(
+      at var(--x4) var(--y4),
+      hsla(142, 70%, 74%, 1) 0px,
+      transparent 50%
+    );
+
+  animation: gradient 30s linear infinite;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100vh;
+
+  color: var(--text-color);
+  font-family: "Oswald", sans-serif;
+}
+
+@keyframes gradient {
+  0% {
+    --x1: 0%;
+    --y1: 0%;
+    --x2: 100%;
+    --y2: 0%;
+    --x3: 100%;
+    --y3: 100%;
+    --x4: 0%;
+    --y4: 100%;
+  }
+  25% {
+    --x1: 100%;
+    --y1: 0%;
+    --x2: 100%;
+    --y2: 100%;
+    --x3: 0%;
+    --y3: 100%;
+    --x4: 0%;
+    --y4: 0%;
+  }
+
+  50% {
+    --x1: 100%;
+    --y1: 100%;
+    --x2: 0%;
+    --y2: 100%;
+    --x3: 0%;
+    --y3: 0%;
+    --x4: 100%;
+    --y4: 0%;
+  }
+
+  75% {
+    --x1: 0%;
+    --y1: 100%;
+    --x2: 0%;
+    --y2: 0%;
+    --x3: 100%;
+    --y3: 0%;
+    --x4: 100%;
+    --y4: 100%;
+  }
+
+  100% {
+    --x1: 0%;
+    --y1: 0%;
+    --x2: 100%;
+    --y2: 0%;
+    --x3: 100%;
+    --y3: 100%;
+    --x4: 0%;
+    --y4: 100%;
+  }
+}
+
+#content {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding-top: 3rem;
+  height: 100vh;
+  overflow: scroll;
+}
+
+#content::-webkit-scrollbar {
+  display: none;
+}
+
+#grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 5rem 2rem;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.card {
+  width: 100%;
+  /* padding: 1rem; */
+  aspect-ratio: 1/1;
+}
+
+.card img {
+  width: 100%;
+  height: fit-content;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  margin: auto;
+
+  border: 1px solid black;
+}
+
+.card div {
+  text-align: center;
+  /* font-size: clamp(2rem, 1vw, 1px); */
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+
+  line-height: 1.5rem;
+}
+
+#info {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+#info #icon-name {
+  display: flex;
+  flex-direction: row;
+}
+
+#icon-name #name-download {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#icon-name > img {
+  width: 20%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#name-download > h1 {
+  margin-left: 1rem;
+  height: 50%;
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+#name-download > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  margin-left: 1rem;
+  height: 50%;
+  max-height: 3rem;
+  text-decoration: none;
+  background-color: var(--text-color);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  width: fit-content;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  line-height: 100%;
+}
+
+#info > #desc {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+#info #screanshots {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  margin-top: 2rem;
+}
+
+#info #screanshots::-webkit-scrollbar {
+  display: none;
+}
+.screanshot {
+  width: 70%;
+  height: auto;
+  margin-right: 1rem;
+}

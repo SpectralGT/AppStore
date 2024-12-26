@@ -1,0 +1,15 @@
+{
+   "slug": "SilentAbyss",
+   "name": "Silent Abyss",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/SilentAbyss/i.png",
+   "screenshots": [
+      "/AppData/SilentAbyss/s1.jpg",
+      "/AppData/SilentAbyss/s2.png",
+      "/AppData/SilentAbyss/s3.jpg",
+      "/AppData/SilentAbyss/s4.jpg",
+      "/AppData/SilentAbyss/s5.jpg",
+      "/AppData/SilentAbyss/s6.jpg"
+   ],
+   "apk": "https://drive.usercontent.google.com/download?id=1xlDsJYb6BAUsFYSKfz_bNeyveiPPq5Xh&export=download"
+}

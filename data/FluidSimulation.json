@@ -1,0 +1,14 @@
+{
+   "slug": "FluidSimulation",
+   "name": "Fluid Simulation",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/FluidSimulation/i.png",
+   "screenshots": [
+      "/AppData/FluidSimulation/s1.png",
+      "/AppData/FluidSimulation/s2.png",
+      "/AppData/FluidSimulation/s3.png",
+      "/AppData/FluidSimulation/s4.png",
+      "/AppData/FluidSimulation/s5.png"
+   ],
+   "apk": "/AppData/FluidSimulation/FluidSimulation.apk"
+}

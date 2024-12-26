@@ -1,0 +1,13 @@
+{
+   "slug": "Mutated",
+   "name": "Mutated",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/Mutated/i.jpg",
+   "screenshots": [
+      "/AppData/Mutated/s1.png",
+      "/AppData/Mutated/s2.png",
+      "/AppData/Mutated/s3.png",
+      "/AppData/Mutated/s4.png"
+   ],
+   "apk": "/AppData/Mutated/Mutated.apk"
+}

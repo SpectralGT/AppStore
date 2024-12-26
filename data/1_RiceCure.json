@@ -1,0 +1,16 @@
+{
+   "slug": "RiceCure",
+   "name": "RiceCure",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/RiceCure/i.png",
+   "screenshots": [
+      "/AppData/RiceCure/s1.jpg",
+      "/AppData/RiceCure/s2.png",
+      "/AppData/RiceCure/s3.jpg",
+      "/AppData/RiceCure/s4.jpg",
+      "/AppData/RiceCure/s5.jpg",
+      "/AppData/RiceCure/s6.jpg"
+
+   ],
+   "apk": "/AppData/RiceCure/RiceCure.apk"
+}

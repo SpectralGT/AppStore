@@ -1,0 +1,13 @@
+{
+   "slug": "CityJumper",
+   "name": "City Jumper",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/CityJumper/i.jpg",
+   "screenshots": [
+      "/AppData/CityJumper/s1.jpg",
+      "/AppData/CityJumper/s2.png",
+      "/AppData/CityJumper/s3.png",
+      "/AppData/CityJumper/s4.png"
+   ],
+   "apk": "/AppData/CityJumper/CityJumper.apk"
+}

@@ -1,0 +1,15 @@
+{
+   "slug": "ProejctK",
+   "name": "ProjectK",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/ProjectK/i.png",
+   "screenshots": [
+      "/AppData/ProejctK/s1.png",
+      "/AppData/ProejctK/s2.png",
+      "/AppData/ProejctK/s3.png",
+      "/AppData/ProejctK/s4.png",
+      "/AppData/ProejctK/s5.png",
+      "/AppData/ProejctK/s6.png"
+   ],
+   "apk": "/AppData/ProejctK/ProejctK.apk"
+}

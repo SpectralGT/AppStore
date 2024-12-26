@@ -1,0 +1,13 @@
+{
+   "slug": "AnotherPlanet",
+   "name": "Another Planet",
+   "description": "An amazing app that does wonders.",
+   "logo": "/images/i.png",
+   "screenshots": [
+      "/AppData/AnotherPlanet/s1.png",
+      "/AppData/AnotherPlanet/s2.png",
+      "/AppData/AnotherPlanet/s3.png",
+      "/AppData/AnotherPlanet/s4.png"
+   ],
+   "apk": "/AppData/AnotherPlanet/AnotherPlanet.apk"
+}

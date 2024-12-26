@@ -1,0 +1,16 @@
+{
+   "slug": "FarSkies",
+   "name": "FarSkies",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/FarSkies/i.png",
+   "screenshots": [
+      "/AppData/FarSkies/s1.png",
+      "/AppData/FarSkies/s2.png",
+      "/AppData/FarSkies/s3.png",
+      "/AppData/FarSkies/s4.png",
+      "/AppData/FarSkies/s5.png",
+      "/AppData/FarSkies/s6.png",
+      "/AppData/FarSkies/s7.png"
+   ],
+   "apk": "/AppData/FarSkies/FarSkies.apk"
+}

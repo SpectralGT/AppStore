@@ -1,0 +1,15 @@
+{
+   "slug": "OutOfPower",
+   "name": "Out Of Power",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/OutOfPower/i.jpg",
+   "screenshots": [
+      "/AppData/OutOfPower/s1.png",
+      "/AppData/OutOfPower/s2.png",
+      "/AppData/OutOfPower/s3.png",
+      "/AppData/OutOfPower/s4.png",
+      "/AppData/OutOfPower/s5.png",
+      "/AppData/OutOfPower/s6.png"
+   ],
+   "apk": "/AppData/OutOfPower/OutOfPower.apk"
+}

@@ -1,0 +1,12 @@
+{
+   "slug": "Notepad--",
+   "name": "Notepad--",
+   "description": "An amazing app that does wonders.",
+   "logo": "/AppData/Notepad--/i.png",
+   "screenshots": [
+      "/AppData/Notepad--/s1.png",
+      "/AppData/Notepad--/s2.png",
+      "/AppData/Notepad--/s3.png"
+   ],
+   "apk": "/AppData/Notepad--/Notepad--.apk"
+}
