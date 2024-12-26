@@ -2,7 +2,7 @@
    "slug": "AnotherPlanet",
    "name": "Another Planet",
    "description": "An amazing app that does wonders.",
-   "logo": "/images/i.png",
+   "logo": "/AppData/AnotherPlanet/i.png",
    "screenshots": [
       "/AppData/AnotherPlanet/s1.png",
       "/AppData/AnotherPlanet/s2.png",

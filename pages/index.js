@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import Image from "next/image";
-import "../styles/index.css";
 
 export async function getStaticProps() {
   const dataDir = path.join(process.cwd(), "data");
