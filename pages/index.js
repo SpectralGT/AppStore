@@ -18,6 +18,10 @@ export async function getStaticProps() {
 
 const HomePage = ({ apps }) => (
   <div id="content">
+    <meta
+      name="google-site-verification"
+      content="kRbwjumXat52-e3mUB7tt-faI1jx9mY0x1EMOPC5egE"
+    />
     <div id="grid">
       {apps.map((app) => (
         <Link key={app.slug} legacyBehavior href={`/apps/${app.slug}`}>
