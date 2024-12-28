@@ -49,6 +49,7 @@ const AppDetail = ({ app }) => (
   <>
     <Head>
       <title>{app.name}</title>
+      <html lang="en"></html>
       <meta charset="UTF-8" />
       <meta name="description" content={app.description} />
       <meta name="keywords" content={app.name} />
@@ -57,12 +58,7 @@ const AppDetail = ({ app }) => (
     </Head>
     <div id="info">
       <div id="icon-name">
-        <Image
-          src={app.logo}
-          alt={`${app.name} logo`}
-          width={1024}
-          height={1024}
-        />
+        <Image src={app.logo} alt={`${app.name} logo`} width={1024} height={1024} />
         <div id="name-download">
           <h1>{app.name}</h1>
           <a href={app.apk} download>

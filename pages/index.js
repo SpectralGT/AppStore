@@ -20,17 +20,12 @@ export async function getStaticProps() {
 const HomePage = ({ apps }) => (
   <>
     <Head>
-      <meta
-        name="google-site-verification"
-        content="kRbwjumXat52-e3mUB7tt-faI1jx9mY0x1EMOPC5egE"
-      />
+      <meta name="google-site-verification" content="kRbwjumXat52-e3mUB7tt-faI1jx9mY0x1EMOPC5egE" />
       <title>Apps by Atharv</title>
-      <meta charset="UTF-8" />
+      <html lang="en"></html>
+      <meta charSet="UTF-8" />
       <meta name="description" content="Apps coded by Atharv Singh" />
-      <meta
-        name="keywords"
-        content="Apps, Atharv, Singh, RiceCure, ProjectK, SilentAbyss"
-      />
+      <meta name="keywords" content="Apps, Atharv, Singh, RiceCure, ProjectK, SilentAbyss" />
       <meta name="author" content="Atharv Singh" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
@@ -40,12 +35,7 @@ const HomePage = ({ apps }) => (
           <Link key={app.slug} legacyBehavior href={`/apps/${app.slug}`}>
             <div className="card">
               <div>
-                <Image
-                  src={app.logo}
-                  alt={`${app.name} logo`}
-                  width={1024}
-                  height={1024}
-                />
+                <Image src={app.logo} alt={`${app.name} logo`} width={1024} height={1024} />
                 <div>{app.name}</div>
               </div>
             </div>
