@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 
 // getStaticProps fetches data based on the slug parameter
 export async function getStaticProps({ params }) {
@@ -45,35 +46,45 @@ export async function getStaticPaths() {
 }
 
 const AppDetail = ({ app }) => (
-  <div id="info">
-    <div id="icon-name">
-      <Image
-        src={app.logo}
-        alt={`${app.name} logo`}
-        width={1024}
-        height={1024}
-      />
-      <div id="name-download">
-        <h1>{app.name}</h1>
-        <a href={app.apk} download>
-          Download
-        </a>
-      </div>
-    </div>
-    <p id="desc">{app.description}</p>
-    <div id="screanshots">
-      {app.screenshots.map((screenshot, index) => (
+  <>
+    <Head>
+      <title>{app.name}</title>
+      <meta charset="UTF-8" />
+      <meta name="description" content={app.description} />
+      <meta name="keywords" content={app.name} />
+      <meta name="author" content="Atharv Singh" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </Head>
+    <div id="info">
+      <div id="icon-name">
         <Image
-          key={index}
-          src={screenshot}
-          alt={`Screenshot ${index + 1} of ${app.name}`}
+          src={app.logo}
+          alt={`${app.name} logo`}
           width={1024}
           height={1024}
-          className="screanshot"
         />
-      ))}
+        <div id="name-download">
+          <h1>{app.name}</h1>
+          <a href={app.apk} download>
+            Download
+          </a>
+        </div>
+      </div>
+      <p id="desc">{app.description}</p>
+      <div id="screanshots">
+        {app.screenshots.map((screenshot, index) => (
+          <Image
+            key={index}
+            src={screenshot}
+            alt={`Screenshot ${index + 1} of ${app.name}`}
+            width={1024}
+            height={1024}
+            className="screanshot"
+          />
+        ))}
+      </div>
     </div>
-  </div>
+  </>
 );
 
 export default AppDetail;

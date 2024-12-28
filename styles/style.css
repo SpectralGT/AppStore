@@ -79,13 +79,15 @@ body {
       transparent 50%
     );
 
-  animation: gradient 30s linear infinite;
+  /* animation: gradient 30s infinite; */
   width: 100vw;
   min-height: 100vh;
   height: 100vh;
 
   color: var(--text-color);
   font-family: "Oswald", sans-serif;
+
+  /* transform: rotate(30deg); */
 }
 
 @keyframes gradient {
