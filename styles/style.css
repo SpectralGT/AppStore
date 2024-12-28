@@ -53,41 +53,19 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  background-image: radial-gradient(
-      at 50% 50%,
-      hsl(0, 0%, 100%) 0px,
-      transparent 50%
-    ),
-    radial-gradient(
-      at var(--x1) var(--y1),
-      rgba(255, 163, 163, 0.468) 0px,
-      transparent 50%
-    ),
-    radial-gradient(
-      at var(--x2) var(--y2),
-      rgb(255, 202, 225) 0px,
-      transparent 50%
-    ),
-    radial-gradient(
-      at var(--x3) var(--y3),
-      rgb(168, 238, 232) 0px,
-      transparent 50%
-    ),
-    radial-gradient(
-      at var(--x4) var(--y4),
-      hsla(142, 70%, 74%, 1) 0px,
-      transparent 50%
-    );
+  background-image: radial-gradient(at 50% 50%, hsl(0, 0%, 100%) 0px, transparent 50%),
+    radial-gradient(at var(--x1) var(--y1), rgba(255, 163, 163, 0.468) 0px, transparent 50%),
+    radial-gradient(at var(--x2) var(--y2), rgb(255, 202, 225) 0px, transparent 50%),
+    radial-gradient(at var(--x3) var(--y3), rgb(168, 238, 232) 0px, transparent 50%),
+    radial-gradient(at var(--x4) var(--y4), hsla(142, 70%, 74%, 1) 0px, transparent 50%);
 
-  /* animation: gradient 30s infinite; */
+  animation: gradient 30s infinite;
   width: 100vw;
   min-height: 100vh;
   height: 100vh;
 
   color: var(--text-color);
   font-family: "Oswald", sans-serif;
-
-  /* transform: rotate(30deg); */
 }
 
 @keyframes gradient {
