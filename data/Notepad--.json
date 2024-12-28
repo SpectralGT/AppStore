@@ -4,9 +4,9 @@
    "description": "An amazing app that does wonders.",
    "logo": "/AppData/Notepad--/i.png",
    "screenshots": [
-      "/AppData/Notepad--/s1.png",
+      "/AppData/Notepad--/s1.jpg",
       "/AppData/Notepad--/s2.png",
-      "/AppData/Notepad--/s3.png"
+      "/AppData/Notepad--/s3.jpg"
    ],
    "apk": "/AppData/Notepad--/Notepad--.apk"
 }

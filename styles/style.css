@@ -266,4 +266,5 @@ body {
   width: 70%;
   height: auto;
   margin-right: 1rem;
+  object-fit: contain;
 }

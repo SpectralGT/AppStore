@@ -1,15 +1,15 @@
 {
-   "slug": "ProejctK",
+   "slug": "ProjectK",
    "name": "ProjectK",
    "description": "An amazing app that does wonders.",
    "logo": "/AppData/ProjectK/i.png",
    "screenshots": [
-      "/AppData/ProejctK/s1.png",
-      "/AppData/ProejctK/s2.png",
-      "/AppData/ProejctK/s3.png",
-      "/AppData/ProejctK/s4.png",
-      "/AppData/ProejctK/s5.png",
-      "/AppData/ProejctK/s6.png"
+      "/AppData/ProjectK/s1.jpg",
+      "/AppData/ProjectK/s2.png",
+      "/AppData/ProjectK/s3.jpg",
+      "/AppData/ProjectK/s4.jpg",
+      "/AppData/ProjectK/s5.jpg",
+      "/AppData/ProjectK/s6.jpg"
    ],
-   "apk": "/AppData/ProejctK/ProejctK.apk"
+   "apk": "/AppData/ProjectK/ProejctK.apk"
 }
