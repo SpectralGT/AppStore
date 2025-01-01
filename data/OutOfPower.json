@@ -1,10 +1,10 @@
 {
    "slug": "OutOfPower",
    "name": "Out Of Power",
-   "description": "An amazing app that does wonders.",
+   "description": "Out of Power is a first-person game made during a game jam. The levels are procedurally generated, and you have limited energy to complete each level.",
    "logo": "/AppData/OutOfPower/i.jpg",
    "screenshots": [
-      "/AppData/OutOfPower/s1.png",
+      "/AppData/OutOfPower/s1.jpg",
       "/AppData/OutOfPower/s2.png",
       "/AppData/OutOfPower/s3.png",
       "/AppData/OutOfPower/s4.png",

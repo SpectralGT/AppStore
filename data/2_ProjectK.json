@@ -1,7 +1,7 @@
 {
    "slug": "ProjectK",
    "name": "ProjectK",
-   "description": "An amazing app that does wonders.",
+   "description": "ProjectK is an AI-powered app that can detect pulmonary diseases by analyzing lung X-rays. I made it during a hackathon.",
    "logo": "/AppData/ProjectK/i.png",
    "screenshots": [
       "/AppData/ProjectK/s1.jpg",

@@ -1,7 +1,7 @@
 {
    "slug": "FluidSimulation",
    "name": "Fluid Simulation",
-   "description": "An amazing app that does wonders.",
+   "description": "Fluid Simulation is an app I made to learn fluid physics and WebGL.",
    "logo": "/AppData/FluidSimulation/i.png",
    "screenshots": [
       "/AppData/FluidSimulation/s1.png",

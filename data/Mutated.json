@@ -1,7 +1,7 @@
 {
    "slug": "Mutated",
    "name": "Mutated",
-   "description": "An amazing app that does wonders.",
+   "description": "Mutated is a 2D platformer I made for a game jam where you have to use your dead body to complete levels.",
    "logo": "/AppData/Mutated/i.jpg",
    "screenshots": [
       "/AppData/Mutated/s1.jpg",

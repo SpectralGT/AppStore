@@ -1,7 +1,7 @@
 {
    "slug": "Notepad--",
    "name": "Notepad--",
-   "description": "An amazing app that does wonders.",
+   "description": "Notepad-- is a minimalist note-taking app I made using Capacitor JS.",
    "logo": "/AppData/Notepad--/i.png",
    "screenshots": [
       "/AppData/Notepad--/s1.jpg",

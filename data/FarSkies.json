@@ -1,7 +1,7 @@
 {
    "slug": "FarSkies",
    "name": "FarSkies",
-   "description": "An amazing app that does wonders.",
+   "description": "FarSkies is a first-person game I made to try out Unity's terrain tools.",
    "logo": "/AppData/FarSkies/i.png",
    "screenshots": [
       "/AppData/FarSkies/s1.png",

@@ -179,6 +179,12 @@ body {
   max-width: 600px;
   margin: auto;
   padding: 1rem;
+  max-height: 100vh;
+  overflow: scroll;
+}
+
+#info::-webkit-scrollbar{
+  display: none;
 }
 
 #info #icon-name {

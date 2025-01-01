@@ -1,7 +1,7 @@
 {
    "slug": "RiceCure",
    "name": "RiceCure",
-   "description": "An amazing app that does wonders.",
+   "description": "RiceCure is a AI powered app that can detect 8 Rice crop diseases like Bacterial Leaf Blight, Brown Spot, Leaf Blast, Leaf Scald, Narrow Brown Leaf Spot, Neck Blast, Rice Hispa, and Sheath Blight, or confirm that your crop is healthy. It works offline and has a Hindi language option. I made it during a Hackathon",
    "logo": "/AppData/RiceCure/i.png",
    "screenshots": [
       "/AppData/RiceCure/s1.jpg",
